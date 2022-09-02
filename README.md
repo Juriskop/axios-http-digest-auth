@@ -10,7 +10,7 @@ npm install --global yarn
 
 # Position yourself in the directory in which you wanna put this library and it's dependency @juriskop/swish-node-digest-auth and then run these commands
 git clone https://github.com/Juriskop/SWISH-Client.git
-git clone https://github.com/Juriskop/swish-node-digest-auth
+git clone https://github.com/Juriskop/axios-http-digest-auth.git
 
 # Setting up @juriskop/swish-node-digest-auth
 cd swish-node-digest-auth
@@ -22,10 +22,13 @@ yarn link
 cd ..
 
 # Setting up this project
-cd SWISH-Client
+cd axios-http-digest-auth
 
 yarn install
 yarn link @juriskop/swish-node-digest-auth
+
+# Optional for running the provided tests; Replace values appropriately
+cp env.example. .env
 ```
 
 ## Further commands
