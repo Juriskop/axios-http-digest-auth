@@ -2,6 +2,20 @@
 
 This library exports a client which can be used to query the SWISH API and even allows using HTTP Digest Auth.
 
+## How to Use
+
+```typescript
+import axios from "axios";
+
+// Setup
+const axiosInstance = axios.create({});
+httpDigestAuth(this.axiosInstance, {username: 'Your Username', password: 'Your Password'});
+
+// Use it as you would a normal axios instance
+axiosInstance.get('https://example.com/program.pl?format=json');
+```
+
+
 ## Dev Setup
 
 ```bash
