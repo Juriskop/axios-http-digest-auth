@@ -31,7 +31,7 @@ yarn link @juriskop/swish-node-digest-auth
 cp env.example. .env
 ```
 
-## Further commands
+## More commands
 
 ```bash
 # Running tests
