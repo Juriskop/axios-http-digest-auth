@@ -1,6 +1,6 @@
 {
   "name": "@juriskop/axios-http-digest-auth",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Easy-to-use implementation of http digest auth (SWISH specific) for axios in node environments.",
   "main": "dist/index",
   "scripts": {
