@@ -1,8 +1,8 @@
 {
   "name": "@juriskop/axios-http-digest-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy-to-use implementation of http digest auth (SWISH specific) for axios in node environments.",
-  "main": "dist/index",
+  "main": "index",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json && cp ./package.json ./dist/package.json",
     "test": "jest"
