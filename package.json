@@ -4,7 +4,7 @@
   "description": "Easy-to-use implementation of http digest auth (SWISH specific) for axios in node environments.",
   "main": "index",
   "scripts": {
-    "build": "tsc -p ./tsconfig.build.json && cp ./package.json ./dist/package.json",
+    "build": "rm -rf ./dist && tsc -p ./tsconfig.build.json && cp ./package.json ./dist/package.json && cp README.md ./dist/README.md",
     "test": "jest"
   },
   "repository": {
